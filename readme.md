@@ -16,7 +16,7 @@
 
 
 ## Notice
-miniflux默认 [POLLING_FREQUENCY](https://miniflux.app/docs/configuration.html#polling-frequency) 为60分钟，但heroku的Free版本 web应用 30分钟未使用就停机了，导致miniflux的订阅无法及时更新。
+miniflux默认 [`"POLLING_FREQUENCY": "60"`](https://miniflux.app/docs/configuration.html#polling-frequency)，但heroku的Free版本 web应用 30分钟未使用就停机了，导致miniflux的订阅无法及时更新。
 
 解决方案如下：既节省free版时长，又要能及时看到RSS更新。
 
