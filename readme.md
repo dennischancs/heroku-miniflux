@@ -1,9 +1,9 @@
-## deploy
+## DEPLOY
 
 1. switch to [main branch](../../tree/main)
 2. deploy with [heroku button](https://heroku.com/deploy)
 
-## auto update
+## AUTO UPDATE
 
 1. deploy app as above
 2. **fork** this repo
@@ -15,7 +15,7 @@
 
 
 
-## Notice
+## NOTICE
 miniflux默认 [`"POLLING_FREQUENCY": "60"`](https://miniflux.app/docs/configuration.html#polling-frequency)，但heroku的Free版本 web应用 30分钟未使用就停机了，导致miniflux的订阅无法及时更新。
 
 解决方案如下：既节省free版时长，又要能及时看到RSS更新。
